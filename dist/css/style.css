@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: relative;
+}
+.navbar{
+    height: 76px;
+    background-color: #FAFAFA;
+}
+.navbar-brand img{
+    width: 115px;
+    height: 67px;
+}
+.nav-item{
+ margin-left: 25px;
+}
+.nav-item .nav-link{
+}
+.nav-item a{
+    color: #0071bb;
+    font-size: 13px;
+    font-weight: 800;
+    font-family: "solaimanLipi";
+}
+.nav-item a:hover{
+    text-decoration: underline;
+}
+/* .nav-item{
+    position: relative;
+} */
+.navbar-brand::after{
+    content: "";
+    position: absolute;
+    border-left: 1px solid rgb(218, 209, 209);
+    top: 0;
+    margin-top: 16px;
+    margin-left: 25px;
+    height: 30px;
+}
+.nav-item span{
+    color: #DD2C60;
+    height: 15px;
+    width: 15px;
+    font-size: 15px;
+    margin-left: 8px;
+}
+form button span{
+    color: white;
+    background-color: #DD2C60;
+}
+.search-align{
+    width: 150px;
+    font-size: 11px;
+    color: #676767;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    outline: none;
+    margin: 0 0 0 650px;
+    position: relative;
+}
+.search-align .form-control{
+    width: 110px;
+    font-size: 11px;
+    color: #676767;
+    border: none;
+    border-radius: 3px 0 0 3px;
+    border: 1px solid #eee;
+    outline: none;
+    box-shadow: none;
+    transition: all linear .3s;
+}
+.search-align input:focus{
+    outline: 0;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    transform: translate(-48px,0px);
+    transition: all linear .3s;
+}
+.search-align .btn{
+    padding: 1px 10px;
+    background: #DD2C60;
+    border-radius: 0 3px 3px 0;
+}
+.lan-d-block{
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    right: -5px;
+}
+.en a::after{
+    content: "";
+    border-right: 1px solid rgb(218, 209, 209);
+    height: 2px;
+    margin: 5px 5px;
+}
+.en a{
+    color: #676767;
+}
+.bn a{
+    content: "";
+    height: 2px;
+    padding: 5px 5px;
+}
+/* width: 110px;
+    float: left;
+    font-size: 11px;
+    color: #676767;
+    border: none;
+    padding: 3px 2px 4px;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    outline: none; */
+
+    /* nav end */
+.clear{
+    clear: both;
+}
+/* banner start */
+#banner{
+    position: relative;
+}
+.carousel-item{
+   height: 400px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+}
+.carousel-item{
+}
+/* .carousel-caption */
+.carousel-caption h2{
+    color: #DD2C60;
+    
+}
+.carousel-caption h3{
+    color: #000000;
+    display: block;
+    font-size: 22px;
+    line-height: 28px;
+    margin: 5px 0 0;
+    padding: 1% 5%;
+    right: 0;
+    text-align: center;
+}
+.carousel-caption a{
+text-decoration: none;
+background: #DD2C60;
+color: white;
+    border-radius: 1px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px;
+    text-align: center;
+    width: 122px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.carousel-caption{
+    position: absolute;
+    left: 280px;
+    top: 17px;
+}
+.carousel-indicators{
+    height: 20px;
+    height: 20px;
+    width: 100%;
+    margin: 190px 0;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    visibility: hidden;
+}
+.carousel-indicators [data-bs-target] {
+    flex: 0 1 auto;
+    width: 100%;
+    height: 3px;
+    padding: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(145 145 145);
+    opacity: 70%;
+    transition: opacity .6s ease;
+    margin-top: 17px;
+}
+.carousel-indicators .active{
+    background: #DD2C60;
+    margin-top: 12px;
+    padding: 0;
+}
+/* banner end */
+
+
+/* slogan start */
+/* #slogan{
+    
+} */
+
+
+/* slogan start */
+.slogan-content h3{
+    font-size: 21px;
+    color: #646464;
+    text-align: center;
+    margin: 25px 0 30px;
+}
+.slogan-content p a{
+    font-size: 13px;
+    color: #646464;
+    text-align: center;
+    margin: 25px 0 30px;
+    text-decoration: none;
+}
+.slogan-content p:hover a{
+    
+    text-decoration: underline;
+}
+/* slogan end */
+
+
+/* cart start */
+.cart-content h2{
+    margin: 20px 0;
+    font-size: 16px;
+    color: #010101;
+}
+.cart-content{
+    border: 1px solid gray;
+    height: 168px;
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    background: linear-gradient(0deg,#e8e8e8 0%, #fefefe 80%);
+}
+.cart-content:hover{
+    background: linear-gradient(0deg,#e9e9e9 40%, #fefefe 80%);
+}
+.cart-content:hover a{
+    color: #DD2C60;
+}
+.cart-content a{
+    color: #97999C;
+}
+
+.cart-content h3{
+    font-family: 'OpenSansRegular',Arial,Helvetica,sans-serif;
+    bottom: 15px;
+    font-size: 13px;
+    color: #3a3a3a;
+    text-align: center;
+    margin-top: 30px;
+}
+/* cart end */
+
+
+/* footer start */
+#footer{
+    position: absolute;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav-footer{
+    background: #DD2C60;
+    height: 50px;
+}
+.footer{
+    width: 100%;
+    height: auto;
+}
+body{
+    position: relative;
+}
+@media (min-width: 992px){
+    
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    margin: 0 auto;
+    line-height: 50px;
+}}
+.footer-navbar-nav .nav-item a{
+    color: white;
+    font-weight: 800;
+    border: 0 1px
+}
+/* footer end */

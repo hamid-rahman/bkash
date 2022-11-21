@@ -283,7 +283,7 @@ color: white;
     padding: 0;
 }
 .nav-footer{
-    background: #DD2C60;
+    background: linear-gradient(180deg,#e53777 50%, #e53777 40%, #e53777 40%, #d02053 60%, #d02053 50%);
     height: 50px;
 }
 .footer{

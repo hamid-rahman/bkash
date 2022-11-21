@@ -313,7 +313,13 @@ body{
     padding: 0 50px;
     border-left: 1px solid rgb(0 0 0 / 8%);
 }
-
+.footer-navbar-nav .about{
+    padding: 0 50px;
+    border-right: 1px solid rgb(0 0 0 / 8%);
+}
+.cart-main{
+    margin: 0 0 100px 0;
+}
 /* .nav-item a::before{
     content: "";
     position: absolute;
@@ -324,3 +330,28 @@ body{
     bottom: 0;
 } */
 /* footer end */
+
+/* about page */
+.aboutUs-main-content{
+    margin: 50px;
+    margin-top: 30px;
+    padding: 33px;
+    border-top: 1px solid rgb(0 0 0 / 20%);
+    border-right: 1px solid rgb(0 0 0 / 20%);
+    border-left: 1px solid rgb(0 0 0 / 20%);
+
+}
+.aboutUs-main-content h1{
+    font-size: 26px;
+    font-weight: bold;
+    color: #E2136E;
+}
+.aboutUs-main-content p{
+    text-align: justify;
+    line-height: 25px;
+    margin-bottom: 14px;
+}
+.contact-page p{
+    margin: 50px 0;
+}
+/* about page */

@@ -202,11 +202,17 @@ color: white;
 
 
 /* slogan start */
+#slogan{
+    position: absolute;
+    top: 450px;
+    left: 0;
+    right: 0;
+}
 .slogan-content h3{
     font-size: 21px;
     color: #646464;
     text-align: center;
-    margin: 25px 0 30px;
+    margin: 10px 0 30px;
 }
 .slogan-content p a{
     font-size: 13px;
@@ -223,6 +229,9 @@ color: white;
 
 
 /* cart start */
+/* #cart4{
+    margin-top: 200px;
+} */
 .cart-content h2{
     margin: 20px 0;
     font-size: 16px;
@@ -253,13 +262,17 @@ color: white;
     font-size: 13px;
     color: #3a3a3a;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
+}
+.cart-section{
+    margin: 0 0 100px 0;
 }
 /* cart end */
 
 
 /* footer start */
 #footer{
+    margin-bottom: 200px;
     position: absolute;
     bottom: 0;
     position: fixed;
@@ -267,13 +280,13 @@ color: white;
     z-index: 9999;
     margin: 0;
     padding: 0;
-    
 }
 .nav-footer{
     background: #DD2C60;
     height: 50px;
 }
 .footer{
+    position: relative;
     width: 100%;
     height: auto;
 }
@@ -290,6 +303,24 @@ body{
 .footer-navbar-nav .nav-item a{
     color: white;
     font-weight: 800;
-    border: 0 1px
+    padding:0 ;
 }
+.footer-navbar-nav .nav-item{
+    padding: 0 50px;
+    border-left: 1px solid rgb(0 0 0 / 8%);
+}
+.footer-navbar-nav .home{
+    padding: 0 50px;
+    border-left: 1px solid rgb(0 0 0 / 8%);
+}
+
+/* .nav-item a::before{
+    content: "";
+    position: absolute;
+    border-left: 2px solid white;
+    opacity: 30%;
+    font-size: 40px;
+    top: 0;
+    bottom: 0;
+} */
 /* footer end */

@@ -356,3 +356,8 @@ body{
     margin: 50px 0;
 }
 /* about page */
+
+.accordion-body p b{
+    margin-top: 10px;
+    color: #0071bb;
+}
